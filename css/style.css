@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Ariel:wght@100..900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+      font-family: "Ariel", sans-serif;
+      padding: 0;
+	margin: 0;
+    opacity: 1;
+    z-index: 99;
+}
+
+a:focus, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+a {
+    color: #000;
+}
+/*2 SECTION  HEADER CSS START HEADER CSS START HEADER CSS START HEADER CSS START HEADER CSS START */
+
+section#homepage {
+       padding: 5% 0px;
+    height: 100vh;
+    opacity: 1;
+    z-index: 99;
+    display: block;
+    box-shadow: 0px 2px 20px rgb(0 0 0 /100%);
+     background-image: url(../img/background.png);
+    background-color: #1b2e35;
+/*    background: #1b2e35;*/
+}
+
+.fully-home {
+    text-align: center;
+}
+
+.fully-home img {
+    width: 120px;
+       height: 120px;
+           border: 0px dashed #787878;
+    border-radius: 20px 0px;
+}
+.page-contents {
+     margin: 0% 0px;
+    padding: 0% 0px;
+    border-radius: 0px;
+}
+.page-contents h3 {
+    font-family: "Ariel", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1;
+    margin-top: 1px;
+    padding: 13px 0px 3px 0px;
+    margin-bottom: 10px;
+     color: rgb(208 208 208);
+
+    text-transform: uppercase;
+}
+.home-texts h4 {
+    font-family: "Ariel", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.1;
+        color: rgb(255, 255, 255);
+    margin-top: 15px;
+    padding: 0px 0px;
+    margin-bottom: 8px;
+   
+    text-transform: uppercase;
+}
+.fully-homes {
+      padding: 10px 0px 5px 0px;
+}
+.home-texts {
+    text-align: center;
+}
+.app-play {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.app-play img {
+    border: 0px solid white;
+       margin-bottom: 8px;
+    width: 175px;
+    height: 65px;
+}
+.home-details {
+    padding: 0px 15px;
+}
+.home-logins {
+/*padding: 10px 15px 10px 16px;*/
+    margin: 0 auto; /* Auto margins on the sides */
+    text-align: center;
+    border-radius: 0px;
+    width: 173px;
+    height: 61px; /* You need to define a height */
+    border: 2px solid #bec1c5;
+    color: black;
+    background: #ffffff;
+    outline-offset: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0px 17px;
+    /* box-shadow: black 3px 3px 0px 0px; */
+    text-transform: capitalize;
+    font-family: "Ariel", sans-serif;
+    font-style: normal;
+    text-decoration: none !important;
+}
+.browse-demos {
+   border: 2px solid #bec1c5;
+    color: black;
+    background: #ffffff;
+    outline-offset: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 2.2;
+    font-weight: 500;
+    padding: 6px 20px;
+    /* box-shadow: black 3px 3px 0px 0px; */
+    text-transform: capitalize;
+    font-family: "Ariel", sans-serif;
+    font-style: normal;
+    text-decoration: none !important;
+}
+
+.download {
+    text-align: center;
+    width: 100%;
+        padding: 3px 0px;
+}
+
+.download .left-icon {
+    width: 25%;
+    padding: 0px 0px 0px 0px;
+}
+
+.download i {
+    font-size: 35px;
+    padding: 8px 0px 8px 11px;
+}
+
+.download .right-text {
+    width: 75%;
+    line-height: 1.1;
+    padding-left: 13px;
+    padding-top: 2px;
+    text-align: left;
+}
+
+.download .right-text span {
+    color: black;
+        font-size: 14px;
+}
+.download .right-text a.browses-demos {
+    font-size: 16px;
+}
+
+
+.home-credential {
+    padding: 0px 15px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #a2df72 !important;
+    border-color: #a2df72 !important;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #fff !important;
+    background-color: #9ce06b !important;
+    border-color: #9ce06b !important; 
+}
+/*2 SECTION FOOTER CSS START FOOTER CSS START FOOTER CSS START */
+
+/*@ MEDIA QUERY CSS START @ MEDIA QUERY CSS START @ MEDIA QUERY CSS START  */
+
+@media screen and (min-width: 320px) and (max-width:768px){
+.fully-home img {
+    width: 30%;
+    height: auto;
+}
+section#homepage {
+    padding: 20% 0px;
+}
+.app-play img {
+    margin-bottom: 22px;
+}
+}
+/*END*/
